@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="solange.amor.my_love">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:allowBackup="true"
+        android:name=".activity.MyApp"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".splash.splash_activity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.Carta"
+            android:screenOrientation="portrait"
+            android:theme="@style/carta" />
+        <activity
+            android:name=".activity.Carta1"
+            android:screenOrientation="portrait"
+            android:theme="@style/carta" />
+        <activity
+            android:name=".activity.Carta2"
+            android:screenOrientation="portrait"
+            android:theme="@style/carta" />
+        <activity
+            android:name=".controller.StartActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AddActivity"
+            android:label="agregar foto" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Dimelopapi" />
+        <activity
+            android:name=".activity.SampleActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/SplashTheme" />
+        <activity
+            android:name=".activity.uno"
+            android:screenOrientation="landscape"
+            android:theme="@style/SplashTheme" />
+        <activity
+            android:name=".activity.dos"
+            android:screenOrientation="landscape"
+            android:theme="@style/SplashTheme" />
+        <activity
+            android:name=".activity.tres"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme" />
+        <activity
+            android:name=".activity.cuatro"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme" />
+        <activity
+            android:name=".activity.cinco"
+            android:screenOrientation="landscape"
+            android:theme="@style/SplashTheme" />
+        <activity
+            android:name=".activity.seis"
+            android:screenOrientation="landscape"
+            android:theme="@style/SplashTheme" />
+        <activity
+            android:name=".activity.siete"
+            android:screenOrientation="landscape"
+            android:theme="@style/SplashTheme" />
+        <activity
+            android:name=".activity.ocho"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme" />
+        <activity
+            android:name=".Hola"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme" />
+
+        <service android:name=".firebase.MyFirebaseMEssagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".firebase.FirebaseIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".activity.Carta3" />
+        <activity
+            android:name=".activity.NextActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.ShareActivity"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>

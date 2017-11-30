@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView android:layout_width="match_parent"
+    android:scrollbars="none"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_scrollFlags="scroll|enterAlways"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/row_padding"
+                android:id="@+id/a"
+                android:paddingLeft="@dimen/general_padding"
+                android:paddingRight="@dimen/general_padding"
+                android:paddingTop="@dimen/row_padding">
+
+                <View
+                    android:id="@+id/circleViewa"
+                    android:layout_width="@dimen/image"
+                    android:layout_height="@dimen/image"
+                    android:background="@drawable/color1"/>
+
+                <TextView
+                    android:id="@+id/titleTextViewa"
+                    style="@style/RowTitle"
+                    android:text="1"
+                    android:textColor="#F44336"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/row_padding"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/circleViewa" />
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/row_padding"
+                android:paddingLeft="@dimen/general_padding"
+                android:paddingRight="@dimen/general_padding"
+                android:id="@+id/b"
+                android:paddingTop="@dimen/row_padding">
+
+                <View
+                    android:id="@+id/circleView"
+                    android:layout_width="@dimen/image"
+                    android:layout_height="@dimen/image"
+                    android:background="@drawable/color4"/>
+
+                <TextView
+                    android:id="@+id/titleTextView"
+                    style="@style/RowTitle"
+                    android:text="2"
+                    android:textColor="#3F51B5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/row_padding"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/circleView" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/row_padding"
+                android:id="@+id/c"
+                android:paddingLeft="@dimen/general_padding"
+                android:paddingRight="@dimen/general_padding"
+                android:paddingTop="@dimen/row_padding">
+
+                <View
+                    android:id="@+id/circleViewab"
+                    android:layout_width="@dimen/image"
+                    android:layout_height="@dimen/image"
+                    android:background="@drawable/color2"/>
+
+                <TextView
+                    android:id="@+id/titleTextViewab"
+                    style="@style/RowTitle"
+                    android:text="3"
+                    android:textColor="#4CAF50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/row_padding"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/circleViewab" />
+            </RelativeLayout>
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/row_padding"
+                android:paddingLeft="@dimen/general_padding"
+                android:paddingRight="@dimen/general_padding"
+                android:id="@+id/d"
+                android:paddingTop="@dimen/row_padding">
+
+                <View
+                    android:id="@+id/circleViewaq"
+                    android:layout_width="@dimen/image"
+                    android:layout_height="@dimen/image"
+                    android:background="@drawable/color5"/>
+
+                <TextView
+                    android:id="@+id/titleTextViewaq"
+                    style="@style/RowTitle"
+                    android:text="4"
+                    android:textColor="#FF9800"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/row_padding"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/circleViewaq" />
+            </RelativeLayout>
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/row_padding"
+                android:paddingLeft="@dimen/general_padding"
+                android:id="@+id/e"
+                android:paddingRight="@dimen/general_padding"
+                android:paddingTop="@dimen/row_padding">
+
+                <View
+                    android:id="@+id/circleViewas"
+                    android:layout_width="@dimen/image"
+                    android:layout_height="@dimen/image"
+                    android:background="@drawable/color3"/>
+
+                <TextView
+                    android:id="@+id/titleTextViewas"
+                    style="@style/RowTitle"
+                    android:text="5"
+                    android:textColor="#2196F3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/row_padding"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/circleViewas" />
+            </RelativeLayout>
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/row_padding"
+                android:id="@+id/f"
+                android:paddingLeft="@dimen/general_padding"
+                android:paddingRight="@dimen/general_padding"
+                android:paddingTop="@dimen/row_padding">
+
+                <View
+                    android:id="@+id/circle"
+                    android:layout_width="@dimen/image"
+                    android:layout_height="@dimen/image"
+                    android:background="@drawable/color6"/>
+
+                <TextView
+                    android:id="@+id/title"
+                    style="@style/RowTitle"
+                    android:text="6"
+                    android:textColor="#FFEB3B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/row_padding"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/circle" />
+            </RelativeLayout>
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/row_padding"
+                android:id="@+id/g"
+                android:paddingLeft="@dimen/general_padding"
+                android:paddingRight="@dimen/general_padding"
+                android:paddingTop="@dimen/row_padding">
+
+                <View
+                    android:id="@+id/circleViewar"
+                    android:layout_width="@dimen/image"
+                    android:layout_height="@dimen/image"
+                    android:background="@drawable/color7"/>
+
+                <TextView
+                    android:id="@+id/titleTextViewar"
+                    style="@style/RowTitle"
+                    android:text="7"
+                    android:textColor="#00BCD4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/row_padding"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/circleViewar" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/row_padding"
+                android:id="@+id/h"
+                android:paddingLeft="@dimen/general_padding"
+                android:paddingRight="@dimen/general_padding"
+                android:paddingTop="@dimen/row_padding">
+
+                <View
+                    android:id="@+id/circleViewaj"
+                    android:layout_width="@dimen/image"
+                    android:layout_height="@dimen/image"
+                    android:background="@drawable/color8"/>
+
+                <TextView
+                    android:id="@+id/titleTextViewaj"
+                    style="@style/RowTitle"
+                    android:text="8"
+                    android:textColor="#673AB7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/row_padding"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/circleViewaj" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F4F4F4"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/carta1"
+        android:layout_width="wrap_content"
+        android:layout_height="207dp"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="4dp"
+        app:contentPaddingBottom="16dp"
+        app:contentPaddingLeft="16dp"
+        app:contentPaddingRight="16dp"
+        app:contentPaddingTop="16dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp">
+
+        <RelativeLayout
+            android:layout_width="125dp"
+            android:layout_height="175dp">
+
+            <RelativeLayout
+                android:id="@+id/circulo1"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:background="@drawable/color8"
+                android:clickable="true"
+                android:scaleType="fitXY">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="25dp"
+                    android:tint="@color/white"
+                    app:srcCompat="@drawable/color1" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/circulo1"
+                android:paddingLeft="@dimen/movie_title_padding"
+                android:paddingRight="@dimen/movie_title_padding"
+                android:paddingTop="@dimen/movie_title_padding"
+                android:text="23/08/2017"
+                android:textColor="#212121"
+                android:textSize="@dimen/movie_title"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:paddingBottom="@dimen/songs_count_padding_bottom"
+                android:paddingLeft="@dimen/movie_title_padding"
+                android:paddingRight="@dimen/movie_title_padding"
+                android:text="Primera Carta"
+                android:textSize="@dimen/songs_count" />
+
+            <ImageView
+                android:id="@+id/overflow"
+                android:layout_width="30dp"
+                android:layout_height="@dimen/ic_movie_overflow_height"
+                android:layout_above="@+id/rating"
+                android:layout_alignParentEnd="true"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/carta" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/carta2"
+        android:layout_width="wrap_content"
+        android:layout_height="207dp"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="4dp"
+        app:contentPaddingBottom="16dp"
+        app:contentPaddingLeft="16dp"
+        app:contentPaddingRight="16dp"
+        app:contentPaddingTop="16dp"
+        tools:layout_editor_absoluteX="211dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginEnd="11dp"
+        android:layout_alignTop="@+id/carta1"
+        android:layout_alignParentEnd="true">
+
+        <RelativeLayout
+            android:layout_width="125dp"
+            android:layout_height="175dp">
+
+            <RelativeLayout
+                android:id="@+id/circulo2"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:background="@drawable/color8"
+                android:clickable="true"
+                android:scaleType="fitXY">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="25dp"
+                    android:tint="@color/white"
+                    app:srcCompat="@drawable/color1" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/namea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/circulo2"
+                android:paddingLeft="@dimen/movie_title_padding"
+                android:paddingRight="@dimen/movie_title_padding"
+                android:paddingTop="@dimen/movie_title_padding"
+                android:text="23/09/2017"
+                android:textColor="#212121"
+                android:textSize="@dimen/movie_title"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/ratinga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:paddingBottom="@dimen/songs_count_padding_bottom"
+                android:paddingLeft="@dimen/movie_title_padding"
+                android:paddingRight="@dimen/movie_title_padding"
+                android:text="Segunda Carta"
+                android:textSize="@dimen/songs_count" />
+
+            <ImageView
+                android:id="@+id/overflowa"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_above="@+id/ratinga"
+                android:layout_alignParentEnd="true"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/carta" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/carta3"
+        android:layout_width="wrap_content"
+        android:layout_height="207dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="4dp"
+        app:contentPaddingBottom="16dp"
+        app:contentPaddingLeft="16dp"
+        app:contentPaddingRight="16dp"
+        app:contentPaddingTop="16dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/carta1"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:layout_width="125dp"
+            android:layout_height="175dp">
+
+            <RelativeLayout
+                android:id="@+id/circulo3"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:background="@drawable/color8"
+                android:clickable="true"
+                android:scaleType="fitXY">
+
+                <ImageView
+                    android:id="@+id/carta32"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="25dp"
+                    android:tint="@color/white"
+                    app:srcCompat="@drawable/color1" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/ratiga"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="@dimen/movie_title_padding"
+                android:paddingRight="@dimen/movie_title_padding"
+                android:paddingTop="@dimen/movie_title_padding"
+                android:text="23/10/2017"
+                android:textColor="#212121"
+                android:textSize="@dimen/movie_title" />
+
+            <TextView
+                android:id="@+id/ratiga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:paddingBottom="@dimen/songs_count_padding_bottom"
+                android:paddingLeft="@dimen/movie_title_padding"
+                android:paddingRight="@dimen/movie_title_padding"
+                android:text="Tercera Carta"
+                android:textSize="@dimen/songs_count" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/nama"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/carta" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:tint="@color/rojo"
+                app:srcCompat="@drawable/nuevo" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

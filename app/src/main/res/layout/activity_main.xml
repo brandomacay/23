@@ -1,0 +1,253 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:discrollve="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:layout_height="match_parent">
+        <com.flavienlaurent.discrollview.lib.DiscrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.flavienlaurent.discrollview.lib.DiscrollViewContent
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="509dp"
+                    android:background="@color/morado"
+                    android:fontFamily="casual"
+                    android:gravity="center"
+                    android:padding="25dp"
+                    android:text="Hola!"
+                    android:textColor="@android:color/white"
+                    android:textSize="72sp"
+                    tools:ignore="HardcodedText" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="#673AB7"
+                    android:fontFamily="cursive"
+                    android:gravity="center"
+                    android:text="S.M.A.J"
+                    android:textColor="#FFFF"
+                    android:textSize="50sp"
+                    discrollve:discrollve_alpha="true"
+                    discrollve:discrollve_threshold="0.3" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/twocorazones"
+                    android:tint="#D32F2F"
+                    discrollve:discrollve_alpha="true"
+                    discrollve:discrollve_translation="fromLeft|fromBottom" />
+
+                <ImageView
+                    android:layout_width="220dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="right"
+                    android:src="@drawable/entregarheart"
+                    android:tint="#EC407A"
+                    discrollve:discrollve_translation="fromRight" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:text="Hoy es un dia especial para ambos
+    23/10/2017"
+
+                    android:textSize="22sp"
+                    discrollve:discrollve_alpha="true"
+                    discrollve:discrollve_translation="fromBottom"
+                    tools:ignore="HardcodedText" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="350dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"
+                    android:src="@drawable/emojienamorado"
+                    discrollve:discrollve_scaleX="true"
+                    discrollve:discrollve_scaleY="true" />
+
+                <solange.amor.my_love.DiscrollvablePurpleLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/morado"
+                    android:orientation="vertical"
+                    tools:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/purpleView1"
+                        android:layout_width="200dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/hembra"
+                        android:translationX="-150dp" />
+
+                    <ImageView
+                        android:id="@+id/purpleView2"
+                        android:layout_width="220dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="right"
+
+                        android:src="@drawable/macho"
+                        android:translationX="100dp" />
+
+                    <TextView
+                        android:id="@+id/patw"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="60dp"
+                        android:fontFamily="serif"
+                        android:gravity="center"
+                        android:text="Feliz dia mi amor"
+                        android:textColor="@color/white"
+
+                        android:textSize="23sp" />
+
+
+                </solange.amor.my_love.DiscrollvablePurpleLayout>
+
+                <solange.amor.my_love.DiscrollvablePathLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_blue_light"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/pathView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="60dp"
+                        android:fontFamily="serif"
+                        android:gravity="center"
+                        android:text="Te amo un monton "
+                        android:textSize="18sp" />
+
+                </solange.amor.my_love.DiscrollvablePathLayout>
+
+                <solange.amor.my_love.DiscrollvableRedLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="450dp"
+                    android:background="#FFFFFF"
+                    tools:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/redView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@color/colorAccent"
+                        android:fontFamily="serif"
+                        android:gravity="center"
+                        android:padding="20dp"
+                        android:text="amo estar contigo"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:id="@+id/redView2"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:alpha="0.0"
+                        android:scaleX="0.1"
+                        android:scaleY="0.1"
+                        android:src="@drawable/pareja"
+                        android:translationY="50dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:gravity="center"
+                        android:padding="20dp"
+                        android:text=" y tambien:3"
+                        android:textSize="20sp"
+                        discrollve:discrollve_alpha="true"
+                        discrollve:discrollve_translation="fromBottom" />
+
+                </solange.amor.my_love.DiscrollvableRedLayout>
+
+                <solange.amor.my_love.DiscrollvableGreenLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:backgroundTint="@color/white"
+                    tools:ignore="UnusedAttribute"
+                    tools:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/greenView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="50dp"
+                        android:fontFamily="serif"
+                        android:gravity="center"
+                        android:text="Gracias por seguir siendo parte de mi vida"
+                        android:textSize="36sp"
+                        android:textStyle="bold"
+                        android:translationY="-50dp"
+                        tools:ignore="HardcodedText" />
+
+                </solange.amor.my_love.DiscrollvableGreenLayout>
+
+                <solange.amor.my_love.DiscrollvableLastLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/lastView1"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:alpha="0"
+                        android:tint="@color/white"
+                        android:src="@drawable/ic_ilove"
+                        android:translationX="-200dp"
+                        android:translationY="-200dp" />
+
+                    <TextView
+                        android:id="@+id/lastView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/lastView3"
+                        android:layout_alignEnd="@+id/lastView3"
+                        android:alpha="0"
+                        android:fontFamily="monospace"
+                        android:text="U"
+                        android:textColor="@color/white"
+                        android:textSize="70sp"
+                        android:translationX="200dp"
+                        android:translationY="200dp" />
+
+                    <TextView
+                        android:id="@+id/lastView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lastView1"
+                        android:layout_gravity="center"
+                        android:fontFamily="casual"
+                        android:textColor="@color/white"
+                        android:text="Solange"
+                        android:textSize="35sp"
+                        android:translationY="500dp" />
+                </solange.amor.my_love.DiscrollvableLastLayout>
+
+            </com.flavienlaurent.discrollview.lib.DiscrollViewContent>
+
+        </com.flavienlaurent.discrollview.lib.DiscrollView>
+
+</RelativeLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">23</string>
+    <string name="primera_carta" translatable="false">Mi amor se que esta no es la mejor manera de enviarte una carta,pero hice esto para ti, por nuestra SEGURIDAD y tambien porque me encanta la programacion android ♥ xd.Quiero que sepas que te amo demaciado, espero que lo nuestro siga de largo a pesar de todo,que lindo es saber que ya cumplimos 3 meses VAMOS POR MAS.Eres lo mejor que me a pasado Sabias que antes de ir a tu curso me pongo demaciado nervioso, mis manos se congelan(no por el frio xd). Me gusta cuando eres cariñosa conmigo amo,cuando estoy contigo. Nose como explicarte pero mi vida tambien es una m***da y cuando estoy contigo, me olvido de mis problemas. Ultimamente estas queriendote lastimar, y sabes eso me pone triste al saber que no puedo hacer nada por ayudarte.Pero sabes cuentas conmigo para lo que sea en las buenas y en las malas, te haz ganado mi confianza y mi amor. Te amo y mil veces te amo,espero que estes bien que tengas un exelente dia y no olvides que la vida es hermosa. Gracias por ser parte de mi vida</string>
+    <string name="segunda_carta" translatable="false">
+        Hola Solange, nuevamente el mismo regalo se
+        que no es una gran cosa pero…en fin, algunas veces pense que la nuestro no
+        duraria tanto tiempo y miranos quien lo hiba a imaginar durar 4 meses de noviazgo.
+        Me agradas mucho y en verdad
+        quiero que todo valla bien,  te amo y mi intencion contigo es Amarte,Cuidarte y Respetarte.
+        Amo cada momento en la que estoy contigo, normalmente a veces discutimos por cosas irrelevantes
+        pero eso no significa que te dejare de querer, recuerda que te amare todo el tiempo
+        jamas te fallaria, considero que tu eres la indicada en mi vida quizas tambien para mi futuro.
+        Ahora creo que ya tenemos mas confianza del uno al otro, gracias a facebook xd
+        Lo se es algo loco pero solo digo lo que pienso, sabes te deseo lo mejor del mundo,
+        espero que estes bien y que siempre lo estes. TE AMO,mi amor.
+        Gracias por seguir siendo parte de mi vida,por ser la inspiracion de esta app que poco a poco
+        sera mejorada, 23 alguna vez te haz preguntado por que e creado esta app, bueno todo ocurrio
+        cuando estaba creando "Publicentry" y haciendo sus diseños, recuerdo que cuando cumpliste tus 16
+        yo no te di nada, a mas no ser la fecha 23/06/2017 que te regale a Jack y unos chocolates. Bueno ese
+        era nuestro primer mes y pues tenia que darte algo que valiera la pena en especial por tu cumpleaños (atrasado)
+        bien cuando cumplimos los 2 meses fue cuando yo nuevamente no te di nada
+        pero no fue porque no quise si no porque tenia algunos problemas__, bien asi que mientras programaba "publicentry"
+        Se me vino la idea de hacer una aplicacion que describa mis sentimientos de una manera segura y agradable hacia ti
+        asi que empeze por crear 23 version 1.0 no sabia que otro nombre poner a la app, asi que 23 es nuestra fecha
+        empeze con animaciones junto con imagenes y textos todo salio perfecto hasta que me pregunte
+        y por que no poner tambien nuestras fotos y una carta pues tambien hice eso. Todo salio a la perfeccion
+        23 version 1.0 tenia Animaciones,Fotos y una carta tal como lo imagine que seria.
+        Y pues bueno asi surgio 23 ahora tienes la version 3.2 y espero que sea de tu agrado,
+        claro ahora tiene algunas mejoras gracias a Material design y Firebase.
+        Felices 4 meses! ^_^
+    </string>
+    <string name="tercera_carta" translatable="false">Querida Solange,amor de mi vida
+        me alegra mucho saber que ya vamos 5 meses juntos wow nunca habia llegado tan lejos.
+        Quiero agradecerte por todo lo que haz hecho por mi y por soportar mis bromas,locuras,celos,enojos,etc
+        eres realmente tierna y a veces peligrosa, bueno muchas veces me traumas pero no es nada
+        fuera de lo comun para mi.
+        Me encantas mucho y quiero que lo nuestro siga hasta el infinito y mas alla,realmente quisiera
+        llevarte a salir para pasar mas tiempo contigo y obviamente pasar momentos agradables e inolvidables
+        y entiendo la razon por la que no podemos, ahora  tu mamá ya sabe acerca de lo nuestro ahunque no
+        le parecio nada agradable habernos visto de ese modo y lo lamento mucho por  todo lo que a pasado
+        entre tu y mi suegra :v.
+        Te amo demaciado y quiero continuar contigo, a pesar de que tu muchas veces me has querido terminar y
+        yo realmento no he querido hacerlo,pero bueno…
+        Con respecto a esta aplicacion creada por mi e inspirado por ti
+        me llevo mucho  tiempo y dedicacion crearla,esta version 4.0 es la version oficial
+        de 23 . Ya que la version anterior a tenido algunos problema e inconvenientes.
+        Los unicos cambios que tendra cada mes sera una nueva carta y quizas algunas fotos nuestras
+        si esque nos tomamos.
+        Espero que el regalo que te dare en este dia sea de tu agrado, te amo demaciado, felices 5 meses.
+        Gracias por seguir siendo parte de mi vida
+        Vamos por mas !
+        Te amo un monton nunca lo olvides nena.
+        Desde Siempre, Y hasta siempre.
+        Viva la Patria!
+    </string>
+
+    <string name="poema" translatable="true">Mi promesa no es bajarte la luna
+mi promesa consiste
+amarte,cuidarte y respetarte
+con toda mi locura.</string>
+    <string name="creditos" translatable="false">ATT: tu mosh Brandon M.</string>
+    <string name="title_activity_inicial" translatable="false">" "</string>
+    <string name="start" translatable="false">INICIAR</string>
+    <string name="next" translatable="false">SIGUIENTE</string>
+    <string name="tab_1" translatable="false">Inicio</string>
+    <string name="tab_2" translatable="false">Imagenes</string>
+    <string name="tab_3" translatable="false">Informacion</string>
+    <string name="tupoema" translatable="false">
+        El cielo es azul
+        Y rojo mi corazón
+        Mi amor eres tú
+        Y de mi sonrisa la razón.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="calling_activity" translatable="false">calling_activity</string>
+    <string name="selected_image" translatable="false">selected_image</string>
+    <string name="selected_bitmap" translatable="false">selected_bitmap</string>
+    <string name="return_to_fragment" translatable="false">return_to_fragment</string>
+    <string name="new_photo" translatable="false">new_photo</string>
+    <string name="profile_photo" translatable="false">profile_photo</string>
+    <string name="gallery" translatable="false">galeria</string>
+    <string name="photo" translatable="false">fotos</string>
+    <string name="title_activity_prueba" translatable="false">Prueba</string>
+    <string name="title_home" translatable="false">Home</string>
+    <string name="title_dashboard" translatable="false">Dashboard</string>
+    <string name="title_notifications" translatable="false">Notifications</string>
+    <string name="de_acuerdo" translatable="false">De acuerdo</string>
+</resources>

@@ -1,0 +1,45 @@
+{
+  "project_info": {
+    "project_number": "583426350239",
+    "firebase_url": "https://solange-cd7e4.firebaseio.com",
+    "project_id": "solange-cd7e4",
+    "storage_bucket": "solange-cd7e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583426350239:android:d9cb6f4281ee7891",
+        "android_client_info": {
+          "package_name": "solange.amor.my_love"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583426350239-7jq6otpitcn17ectef1jb1esbbq8bv9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKk8Ceq48GNJv9fQ9fiVVQanE_usXGTz4"
+        },
+        {
+          "current_key": "AIzaSyBLNFycZz_srWbgW-LXqOCDORWqwZw1sVI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

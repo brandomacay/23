@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        app:behavior_overlapTop="69dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#F4F4F4"
+            >
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/people_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/spacing_large"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
+                app:contentPaddingBottom="16dp"
+                app:contentPaddingLeft="16dp"
+                app:contentPaddingRight="16dp"
+                app:contentPaddingTop="16dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/image_user"
+                            android:tint="@color/morado"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/persona"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="14dp"
+                            android:layout_toEndOf="@+id/image_user"
+                            android:text="Brandon Moises Macay Ruales"/>
+
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/image_usr"
+                            android:tint="@color/morado"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/place"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="14dp"
+                            android:layout_marginTop="6dp"
+                            android:layout_toEndOf="@+id/image_usr"
+                            android:text="Santa Rosa,El Oro"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/spacing_medium">
+
+                        <ImageView
+                            android:id="@+id/image_phone"
+                            android:tint="@color/morado"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/coche"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="14dp"
+                            android:layout_toEndOf="@+id/image_phone"
+                            android:text="19/04/2001"/>
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/spacing_medium">
+
+                        <ImageView
+                            android:id="@+id/image_mail"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:tint="@color/morado"
+                            android:src="@drawable/solange"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="14dp"
+                            android:layout_toEndOf="@+id/image_mail"
+                            android:text="Solange Arevalo"
+                           />
+
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/spacing_large"
+                android:layout_marginLeft="@dimen/spacing_large"
+                android:layout_marginRight="@dimen/spacing_large"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
+                android:clickable="true"
+                app:contentPaddingBottom="16dp"
+                app:contentPaddingLeft="16dp"
+                app:contentPaddingRight="16dp"
+                app:contentPaddingTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/image_home"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:src="@drawable/fb"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="10dp"
+                            android:textSize="14dp"
+                            android:id="@+id/facebook"
+                            android:textIsSelectable="true"
+                            android:textColor="#2196F3"
+                            android:layout_toEndOf="@+id/image_home"
+                            android:text="www.facebook.com/brando.macay"/>
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/image_gender"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="14dp"
+                            android:src="@drawable/instagram"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:id="@+id/instagram"
+                            android:textSize="14dp"
+                            android:layout_marginTop="20dp"
+                            android:textColor="#2196F3"
+                            android:textIsSelectable="true"
+                            android:layout_toEndOf="@+id/image_gender"
+                            android:text="www.instagram.com/brando_macay"/>
+
+
+                    </RelativeLayout>
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/spacing_large"
+                android:layout_marginLeft="@dimen/spacing_large"
+                android:layout_marginRight="@dimen/spacing_large"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
+                android:clickable="true"
+                app:contentPaddingBottom="16dp"
+                app:contentPaddingLeft="16dp"
+                app:contentPaddingRight="16dp"
+                app:contentPaddingTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="Favoritos:"
+                        android:layout_height="wrap_content" />
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"/>
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30sp">
+
+                        <ImageView
+                            android:id="@+id/image_homea"
+                            android:layout_width="25dp"
+                            android:tint="@color/morado"
+                            android:layout_height="25dp"
+                            android:src="@drawable/fruta"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="14dp"
+                            android:layout_toEndOf="@+id/image_homea"
+                            android:text="Manzana,Pera,Fresa y Mango"/>
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30sp">
+
+                        <ImageView
+                            android:id="@+id/image_gendera"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="2dp"
+                            android:tint="@color/morado"
+                            android:src="@drawable/animal"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="14dp"
+                            android:layout_marginTop="@dimen/spacing_medium"
+                            android:layout_toEndOf="@+id/image_gendera"
+                            android:text="Los Gatos"/>
+
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30sp">
+
+                        <ImageView
+                            android:id="@+id/image_genderar"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="2dp"
+                            android:tint="@color/morado"
+                            android:src="@drawable/musica"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="14dp"
+                            android:layout_marginTop="@dimen/spacing_medium"
+                            android:layout_toEndOf="@+id/image_genderar"
+                            android:text="Electronica"/>
+
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30sp">
+
+                        <ImageView
+                            android:id="@+id/image_genderarb"
+                            android:layout_width="23dp"
+                            android:layout_height="23dp"
+                            android:layout_marginTop="2dp"
+                            android:src="@drawable/google"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="14dp"
+                            android:layout_marginTop="@dimen/spacing_medium"
+                            android:layout_toEndOf="@+id/image_genderarb"
+                            android:text="Negro mate y el Rojo"/>
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30sp">
+
+                        <ImageView
+                            android:id="@+id/image_genderarba"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:tint="@color/morado"
+                            android:layout_marginTop="2dp"
+                            android:src="@drawable/bola"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="14dp"
+                            android:layout_marginTop="@dimen/spacing_medium"
+                            android:layout_toEndOf="@+id/image_genderarba"
+                            android:text="Basketball"/>
+
+                    </RelativeLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/spacing_large"
+                android:layout_marginLeft="@dimen/spacing_large"
+                android:layout_marginRight="@dimen/spacing_large"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
+                android:clickable="true"
+                app:contentPaddingBottom="16dp"
+                app:contentPaddingLeft="16dp"
+                app:contentPaddingRight="16dp"
+                app:contentPaddingTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="En caso de emergencia:"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"/>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:clickable="true"
+                        android:id="@+id/llamar"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/image_homeaa"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:tint="@color/morado"
+                            android:src="@drawable/call"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="10dp"
+                            android:textSize="16dp"
+                            android:textColor="#009688"
+                            android:layout_toEndOf="@+id/image_homeaa"
+                            android:text="0987280450"/>
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

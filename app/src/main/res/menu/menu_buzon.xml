@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="publicentry.com.publicentry.buzon">
+
+
+    <item
+        android:id="@+id/carta"
+        android:icon="@drawable/carta"
+        android:orderInCategory="3"
+        android:title="carta"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/version"
+        android:iconTint="@color/morado"
+        android:orderInCategory="100"
+        android:title="Version oficial 4.0"
+        tools:targetApi="o" />
+</menu>

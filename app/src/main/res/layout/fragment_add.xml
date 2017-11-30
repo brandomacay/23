@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Titulo : " />
+
+        <EditText
+
+            android:id="@+id/edHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLines="1" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subtitulo : " />
+
+        <EditText
+            android:id="@+id/edContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/fotos"
+        android:backgroundTint="#BDBDBD"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.39">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:layout_height="250dp"
+            android:layout_width="match_parent"
+            fresco:actualImageScaleType="centerCrop"
+            android:id="@+id/img1"
+            android:layout_weight="0.39"
+            fresco:roundAsCircle="false"
+            android:adjustViewBounds="true"
+            fresco:roundedCornerRadius="1dp"
+            fresco:roundingBorderWidth="2dp"
+            fresco:backgroundImage="@android:color/transparent"
+            fresco:roundingBorderColor="@color/morado"
+            android:layout_alignParentTop="true"
+            />
+
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Large"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:visibility="invisible" />
+
+
+
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:id="@+id/loadingPanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:visibility="gone">
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#0091EA"
+        android:text="Subir datos"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#43A047"
+        android:text="Actualizar"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FF5722"
+        android:text="Borrar"
+        android:textColor="#fff" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:linksClickable="true"
+            android:text="Url:"
+            tools:targetApi="m" />
+
+        <TextView
+            android:id="@+id/tvPath"
+            android:textIsSelectable="true"
+            android:textColor="#2196F3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>
